@@ -13,7 +13,7 @@ public class SpringMain {
 		// 맨 앞글자를 소문자로 바꾸고(소문자면 그대로)
 		// 두 번째 파라미터는 클래스명.class 를 적습니다.
 		Broadcast broadcast = context.getBean(
-				 "broadcast", Broadcast.class);
+				 "mbc", Broadcast.class);
 		
 		broadcast.broad();
 		context.close();
